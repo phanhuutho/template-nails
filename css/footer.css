@@ -1,0 +1,43 @@
+/*Footer*/
+footer {
+    border-top: 1px solid rgba(0,0,0,0.05);
+    font-family: "PT Serif Caption";
+    color: #777;
+}
+footer .legend {
+    color: #fcb900;
+}
+footer a{
+    color: #334862;
+    text-decoration: none;
+}
+footer .circle{
+    width: 2.25em;
+    height: 2.25em;
+    border-radius: 50%;
+    background: #d93e2d;
+    text-align: center;
+}
+footer .circle span{
+    color: #FFFFFF;
+    line-height: 35px;
+}
+
+.tel{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #81d742;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 4px 0 rgba(2,2,2,0.28);
+    border: 1px solid #FFFFFF;
+}
+.tel .fa{
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 55px;
+}

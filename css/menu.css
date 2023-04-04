@@ -1,0 +1,111 @@
+/*Menu*/
+.menu-desktop {
+    margin-top: 5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+.menu-desktop .list-inline > li > a {
+    color: #000000;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .02em;
+    padding-top: 15px;
+    position: relative;
+}
+.menu-desktop .list-inline > li > a:before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0%;
+    height: 3px;
+    background-color: #FFFFFF;
+    transition: all 0.3s;
+    transform: translateX(-50%);
+}
+.menu-desktop .list-inline > li > a:hover:before, .menu-desktop .list-inline > li > a.active:before{
+    width: 100%;
+    background-color: #000000;
+}
+.navbar-nav > li:first-child {
+    margin-left: 0 !important;
+}
+.menu-desktop .list-inline > li {
+    margin: 0 10px;
+}
+.top-divider{
+    margin-bottom: 20px;
+    border-top: 1px solid #333333;
+    opacity: 0.1;
+}
+.call-us, .list-menu .call-us {
+    position: relative;
+    text-transform: uppercase;
+    font-family: "Carme";
+    text-decoration: none;
+    color: #666666;
+    transition: all 0.3s;
+    letter-spacing: .03em;
+    font-size: 1em;
+    font-weight: bolder;
+}
+.call-us span, .list-menu .call-us span{
+    line-height: 1.6;
+}
+.call-us:before, .list-menu .call-us:before{
+    content: "";
+    height: 2px;
+    background-color: #333333;
+    opacity: .3;
+    transition: all .3s;
+    position: absolute;
+    bottom: -10px;
+    left: 20%;
+    width: 60%;
+}
+.call-us:hover, .list-menu .call-us:hover{
+    color: #000000;
+}
+.call-us:hover:before, .list-menu .call-us:hover:before{
+    background-color: #000;
+    opacity: 1;
+    transition: all .3s;
+    left: 0;
+    width: 100%;
+}
+.list-menu{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: #dddddd;
+    overflow: hidden;
+    padding-top: 20%;
+    z-index: 9999;
+}
+.list-menu li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.list-menu li a{
+    color: #666666;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .02em;
+}
+.list-menu .btn-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

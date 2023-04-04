@@ -1,0 +1,63 @@
+.page-main{
+    margin-top: -130px !important;
+    position: relative;
+}
+.bg-main{
+    background-color: rgb(244, 244, 244);
+}
+.box-tel, .box-contact{
+    background-color: #FFFFFF;
+    padding: 80px 40px 80px 40px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn-tel, .btn-contact{
+    background-color: #7a9c59;
+    border-radius: 0;
+    border-color: #7a9c59;
+    font-family: "Carme";
+    text-transform: uppercase;
+    font-size: .97em;
+    letter-spacing: .03em;
+    font-weight: bolder;
+    box-sizing: border-box;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+}
+.btn-tel span, .btn-contact span{
+    line-height: 1.6;
+}
+.box-map{
+    padding: 40px 40px 40px 40px;
+    background-color: rgb(255,255,255);
+}
+.gallery{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-color: #FFFFFF;
+}
+.gallery .container{
+    max-width: 1300px;
+}
+.bg-close-up{
+    background-image: url(../images/female-hand-with-green-nail-design-close-up-1024x683.jpg);
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    height: 413px;
+}
+.bg-dandelion{
+    background-image: url(../images/female-hand-with-white-dandelion-nail-design-1024x683.jpg);
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    height: 413px;
+}
+.bg-hand-flowers{
+    background-image: url(../images/female-hand-with-pink-nail-design-female-hand-hold-rose-flowers-bouquet-woman-hand-pink-fabric-background-683x1024.jpg);
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    height: 413px;
+}

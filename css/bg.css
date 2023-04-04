@@ -1,0 +1,29 @@
+.bg{
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    width: 100%;
+    max-width: unset;
+    position: relative;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.bg-contact{
+    padding-top: 230px;
+    padding-bottom: 200px;
+    background-image: url(../images/girl-s-hands-with-delicate-purple-manicure-orchid-flowers-scaled.jpg);
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    background-size: cover !important;
+}
+.bg-contact .description{
+    font-family: Parisienne; 
+    font-size: 170%; 
+    color: #FFFFFF;
+    font-weight: bold;
+}

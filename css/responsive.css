@@ -1,0 +1,49 @@
+/*---------------- Responsive ---------------*/
+@media (min-width: 576px) {
+    
+}
+@media (min-width: 768px) {
+
+}
+@media (max-width: 768px) {
+    .logo img {
+        display: none;
+    }
+    .menu-desktop{
+        display: none;
+    }
+    .menu-mobile-tablet{
+        position: relative;
+    }
+    .menu-mobile-tablet .menu-bars{
+        position: absolute;
+        top: 40%;
+    }
+    .menu-mobile-tablet .menu-bars button{
+        border: none;
+        background: none;
+    }
+    .menu-mobile-tablet .menu-bars .fa{
+        font-size: 18px;
+    }
+    .menu-mobile-tablet .logo-brand{
+        text-align: center;
+    }
+}
+@media (min-width: 769px) {
+    .menu-mobile-tablet{
+        display: none;
+    }
+    .navbar-brand img {
+        display: none;
+    }
+}
+@media (min-width: 992px) {
+
+}
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 1400px) {
+
+}

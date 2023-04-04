@@ -1,0 +1,12 @@
+header, main .container, footer .container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+a:active,a:hover {
+    outline-width: 0
+}
+
+/*Logo*/
+.logo, .navbar-brand img {
+    max-width: 91px;
+}
