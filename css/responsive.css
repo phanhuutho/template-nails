@@ -5,6 +5,20 @@
 @media (min-width: 768px) {
 
 }
+@media (max-width: 767px) {
+    .slider-banner .banner .banner-detail .container .img-dot img{
+        height: 200px !important;
+    }
+    .slider-banner .banner .banner-detail .container .img-dot{
+        bottom: -10px;
+    }
+    .slider-banner .banner .banner-detail .container .banner-detail-first .banner-text{
+        text-align: center !important;
+    }
+    .bg-about-us{
+        height: auto;
+    }
+}
 @media (max-width: 768px) {
     .logo img {
         display: none;
@@ -28,6 +42,24 @@
     }
     .menu-mobile-tablet .logo-brand{
         text-align: center;
+    }
+    .slider-banner, .slider-banner .banner, .slider-banner .banner .banner-image{
+        height: 430px;
+    }
+    .slider-banner .banner .banner-detail .container{
+        height: 410px;
+    }
+    .slider-banner .banner .banner-detail .container .img-dot img{
+        height: 330px;
+    }
+    .slider-banner .banner .banner-detail .container .banner-title{
+        font-size: 225%;
+    }
+    .slider-banner .banner .banner-detail .container .banner-detail-first{
+        height: 130px;
+    }
+    .slider-banner .banner .banner-detail .container .banner-detail-first .banner-text .btn-call{
+        padding: 10px 15px 10px 15px;
     }
 }
 @media (min-width: 769px) {

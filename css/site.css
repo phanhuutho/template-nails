@@ -10,3 +10,10 @@ a:active,a:hover {
 .logo, .navbar-brand img {
     max-width: 91px;
 }
+
+.font-Prata{
+    font-family: 'Prata' !important;
+}
+.font-Parisienne{
+    font-family: 'Parisienne' !important;
+}
