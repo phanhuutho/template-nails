@@ -17,3 +17,9 @@ a:active,a:hover {
 .font-Parisienne{
     font-family: 'Parisienne' !important;
 }
+.divider {
+    max-width:200px;
+    background-color:rgb(108, 108, 108);
+    height: 3px;
+    margin: 0 auto;
+}

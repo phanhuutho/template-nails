@@ -1,0 +1,25 @@
+.box-image {
+    position: relative;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.box-image img {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+.box-text {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.box-text h2{
+    font-family: Parisienne;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.3;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    color: #555;
+}
