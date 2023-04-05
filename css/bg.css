@@ -16,7 +16,7 @@
 .bg-contact{
     padding-top: 230px;
     padding-bottom: 200px;
-    background-image: url(../images/girl-s-hands-with-delicate-purple-manicure-orchid-flowers-scaled.jpg);
+    background-image: url(../images/contact/girl-s-hands-with-delicate-purple-manicure-orchid-flowers-scaled.jpg);
     background-repeat: no-repeat !important;
     background-position: 50% 50%;
     background-size: cover !important;
@@ -36,7 +36,7 @@
     height: 100%;
 }
 .bg-about-us{
-    background-image: url(../images/pink-nail-design-female-hands-with-glitter-manicure-scaled.jpg);
+    background-image: url(../images/about-us/pink-nail-design-female-hands-with-glitter-manicure-scaled.jpg);
     background-repeat: no-repeat !important;
     background-position: 50% 50%;
     background-size: cover !important;
