@@ -42,3 +42,10 @@
     background-size: cover !important;
     height: 600px;
 }
+
+.bg-linear-green-blue{
+    background: linear-gradient(to right, RGBA(46,204,113,1) 0%,RGBA(69,85,239,1) 100%);
+}
+.bg-linear-blue{
+    background: linear-gradient(to right, RGBA(13,194,237,1) 0%,RGBA(69,85,239,1) 100%);
+}

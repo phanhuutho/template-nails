@@ -1,0 +1,197 @@
+main .contact{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: rgb(246, 241, 233)
+}
+main .contact .container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.services{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    max-width: unset;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+}
+.services .bg-services{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/home/manicure-master-massaging-clients-female-fingers-after-nail-polishing-nail-salon-scaled.jpeg);
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    background-size: cover !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services .box-inner{
+    background-color: #FFFFFF;
+    padding: 30px 25px;
+    height: 270px;
+}
+.services .box-inner p{
+    font-family: "Carme";
+    font-weight: bolder;
+    text-align: center;
+    font-size: 20px;
+    color: #555555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services .box-inner img{
+    height: 85px;
+}
+
+.business{
+    background-color: rgb(246, 241, 233);
+    padding-bottom: 235px;
+}
+.business .business-inner{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(90deg, #FFFFFF 50%, rgb(246, 241, 233) 50%);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.business .business-inner .box-inner{
+    padding-top: 20%;
+    margin-right: 30%;
+}
+.business .business-inner .box-inner i{
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.business .business-inner p{
+    font-family: "Vesper Libre";
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 1.3em;
+}
+
+.business .business-inner .box-image{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    max-width: unset;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+}
+.business .business-inner .box-image .image-business{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 340px;
+    height: 450px;
+    background-image: url(../images/home/closeup-beautiful-sophisticated-female-hands-with-pink-flowers-white-scaled.jpeg);
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    background-size: cover !important;
+}
+
+.e-gift .box-inner{
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.e-gift .box-image{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    max-width: unset;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+}
+.e-gift .box-image .image-e-gift{
+    position: absolute;
+    right: 0;
+    top: 80px;
+    width: 600px;
+    height: 600px;
+    background-image: url(../images/home/manicure-female-hands-with-pink-gypsophila-flowers-gel-polish-beige-long-nails-white-background-scaled.jpg);
+    background-repeat: no-repeat !important;
+    background-position: 20% 50%;
+    background-size: cover !important;
+}
+.e-gift .box-inner .divider, .business .box-inner .divider{
+    max-width:100px;
+    background-color:rgb(246, 241, 233);
+}
+.e-gift .line-bottom{
+    background-color: rgb(246, 241, 233);
+    width: 100%;
+    height: 160px;
+    margin-left:-15px;
+}
+
+.contact h2, .e-gift h2, .business h2{
+    font-weight: bold;
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    line-height: 2;
+}
+.contact .btn-more, .e-gift .btn-more, .business .btn-more{
+    background-color: #fff !important;
+    color: #666 !important;
+    border-radius: 10px;
+    font-family: "Carme";
+    border-color: rgba(0,0,0,0.05);
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 7px 20px;
+}
+.contact .btn-more:hover, .e-gift .btn-more:hover, .business .btn-more:hover{
+    background-color: #dddddd !important;
+}
+
+.contact-images{
+    position: relative;
+    width: 100%;
+    height: 301px;
+    margin: 0 auto;
+    max-width: unset;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+}
+.contact-images .image1,.contact-images .image2,.contact-images .image3,.contact-images .image4{
+    height: 301px;
+}
+.contact-images .image1{
+    background-image: url(../images/home/hands-woman-with-pink-manicure-nails-roses-against-white-background-scaled.jpg);
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    background-size: cover !important;
+}
+
+.contact-images .image2{
+    background-image: url(../images/home/beautiful-legs-different-spa-items-scaled.jpg);
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    background-size: cover !important;
+}
+
+.contact-images .image3{
+    background-image: url(../images/home/female-hand-with-glitter-beige-nail-design-female-hand-hold-dry-autumn-flower-woman-hand-beige-fabric-background-scaled.jpg);
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    background-size: cover !important;
+}
+
+.contact-images .image4{
+    background-image: url(../images/home/closeup-photo-female-feet-spa-salon-pedicure-manicure-procedure-soft-focus-image-1-scaled.jpg);
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    background-size: cover !important;
+}

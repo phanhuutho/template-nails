@@ -1,3 +1,4 @@
+/*root*/
 header, main .container, footer .container{
     max-width: 1080px;
     margin: 0 auto;
@@ -11,15 +12,29 @@ a:active,a:hover {
     max-width: 91px;
 }
 
+/*font*/
 .font-Prata{
     font-family: 'Prata' !important;
 }
 .font-Parisienne{
     font-family: 'Parisienne' !important;
 }
+
+/*divider*/
 .divider {
     max-width:200px;
     background-color:rgb(108, 108, 108);
     height: 3px;
     margin: 0 auto;
+}
+
+/*css*/
+.btn-none-border{
+    border: 0 !important;
+}
+.btn-border{
+    border-width: 2px !important;
+}
+.btn-border-black{
+    border-color: #666666 !important;
 }
