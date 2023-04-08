@@ -38,3 +38,11 @@ a:active,a:hover {
 .btn-border-black{
     border-color: #666666 !important;
 }
+.btn-bg-white{
+    background: #FFFFFF;
+    color: #000000;
+}
+.modal-content{
+    border-width: 5px;
+    border-color: #000000;
+}

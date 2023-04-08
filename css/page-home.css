@@ -3,10 +3,299 @@ main .contact{
     padding-bottom: 75px;
     background-color: rgb(246, 241, 233)
 }
-main .contact .container{
+main .contact .container, .beauty-spa .beauty-spa-inner{
     max-width: 1300px;
     margin: 0 auto;
 }
+.slider-home{
+    height: 700px;
+}
+.slider-home .sliders{
+    width: 100%;
+}
+.slider-home .sliders .slider-1.background{
+    background: linear-gradient(to right, rgba(46,204,113,1) 0%,rgba(69,85,239,1) 100%);
+}
+.slider-home .sliders .slider-2.background{
+    background: linear-gradient(to right, rgba(13,194,237,1) 0%,rgba(69,85,239,1) 100%)
+}
+.slider-home .sliders .slider-3.background{
+    background: linear-gradient(to right, rgba(200,204,113,1) 0%,rgba(69,85,239,1) 100%)
+}
+.slider-home .sliders .slider-4.background{
+    background: linear-gradient(to right, rgb(238, 89, 89) 0%,rgba(69,85,239,1) 100%)
+}
+.slider-home .sliders .slider-5.background{
+    background: linear-gradient(to right, rgb(255, 82, 241) 0%,rgba(69,85,239,1) 100%)
+}
+.slider-home .sliders .slider-1 .box-image, .slider-home .sliders .slider-2 .box-image, .slider-home .sliders .slider-3 .box-image{
+    max-width: 1500px;
+    width: 100%;
+    position: relative;
+    height: 700px;
+    margin: 0 auto;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+}
+.slider-home .sliders .slider-1 .box-image .image{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/banner/home/bigstock-Beauty-Young-Woman-Blowing-Mag-117340928.jpg);
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    background-size: cover !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider-home .sliders .slider-2 .box-image .image{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/banner/home/manicured-woman-hands-holding-colorful-flowers-scaled.jpg);
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    background-size: cover !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider-home .sliders .slider-3 .box-image .image{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/banner/home/black-silver-manicure-with-cherry-blossom-black-background-woman-with-black-nails-surrounded-with-white-flowers-scaled.jpg);
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    background-size: cover !important;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 100px;
+}
+.slider-home .sliders .slider-4 .box-image,.slider-home .sliders .slider-5 .box-image{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider-home .sliders .slider-4 .box-image .container,.slider-home .sliders .slider-5 .box-image .container{
+    height: 600px;
+    max-width: 1500px;
+    width: 100%;
+    background-color: #FDFDFD;
+}
+.slider-home .sliders .slider-4 .box-image img,.slider-home .sliders .slider-5 .box-image img{
+    width: auto;
+    max-height: 600px;
+}
+.slider-home .sliders .slider-4 .box-inner,.slider-home .sliders .slider-5 .box-inner{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.slider-home .sliders .slider-5 .box-image .container{
+    background-color: #FFFFFF;
+}
+
+.slider-home .sliders .slider-1 .box-image .image .box-inner h1,.slider-home .sliders .slider-1 .box-image .image .box-inner h2{
+    color: #FFFFFF;
+    font-family: 'Fira Sans';
+    font-size: 48px;
+}
+.slider-home .sliders .slider-1 .box-image .image .box-inner a.btn{
+    font-family: 'Fira Sans';
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+.slider-home .sliders .slider-1 .box-image .image .line-svg{
+    position: relative;
+    width: 100%;
+    max-width: 480px;
+    height: 50px;
+}
+.slider-home .sliders .slider-1 .box-image .image .line-svg svg {   
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    height: 150%;
+    transform: translate(-50%,-85%);
+    overflow: visible;
+}
+.slider-home .sliders .slider-1 .box-image .image .line-svg svg path.path1{
+    stroke: #ffffff;
+    stroke-opacity: 1;
+    stroke-width: 10;
+    fill: none;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    -webkit-animation: dash 5s linear forwards;
+    animation: dash 5s linear forwards;
+    animation-delay: 1s;
+}
+.slider-home .sliders .slider-1 .box-image .image .line-svg svg path.path2{
+    stroke: #ffffff;
+    stroke-opacity: 1;
+    stroke-width: 10;
+    fill: none;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    -webkit-animation: dash 5s linear forwards;
+    animation: dash 5s linear forwards;
+    animation-delay: 2s;
+}
+.slider-home .sliders .slider-2 .box-image .image .box-inner h1{
+    font-size: 48px;
+}
+.slider-home .sliders .slider-2 .box-image .image .box-inner p{
+    font-family: "Fira Sans";
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.slider-home .sliders .slider-3 .box-image .image .box-inner h1{
+    font-size: 52px;
+    color: #FFFFFF;
+}
+.slider-home .sliders .slider-3 .box-image .image .box-inner p{
+    font-family: "Fira Sans";
+    font-size: 42px;
+    color: #FFFFFF;
+}
+.slider-home .sliders .slider-4 .box-image .box-inner h1{
+    font-size: 42px;
+}
+.slider-home .sliders .slider-5 .box-image .box-inner h1{
+    font-size: 24px;
+}
+.slider-home .sliders .slider-5 .box-image .box-inner p{
+    font-size: 42px;
+}
+
+.about-us{
+    background-color: rgb(246, 241, 233);
+}
+.about-us .about-us-inner{
+    height: 850px;
+    display: flex;
+    align-items: end;
+}
+.about-us .box-inner{
+    padding-right: 155px;
+}
+.about-us .box-inner h1{
+    font-size: 5em; 
+    font-family: "Parisienne"; 
+    color: #333333;
+    font-weight: bold;
+}
+.about-us .box-inner p{
+    color: #333333;
+    font-family: "Vesper Libre";
+    padding-bottom: 15px;
+}
+.about-us .box-image{
+    position: relative;
+    width: 100%;
+    height: 950px;
+    margin: 0 auto;
+    max-width: unset;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+}
+.about-us .box-image .image-about-us{
+    position: absolute;
+    right: -12px;
+    top: 0;
+    width: 100%;
+    height: 950px;
+    background-image: url(../images/home/pink-nail-design-female-hands-with-glitter-manicure-2-scaled.jpg);
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    background-size: cover !important;
+}
+
+.beauty-spa .beauty-spa-inner{
+    height: 700px;
+    position: relative;
+}
+.beauty-spa .beauty-spa-inner:before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    background-color: rgb(246, 241, 233);
+    top: 40%;
+}
+.beauty-spa .beauty-spa-inner .box-inner p{
+    font-size: 300%; 
+    font-family: "Parisienne"; 
+    color: #333333;
+}
+.beauty-spa .beauty-spa-inner .box-inner h2{
+    font-size: 150%; 
+    color: #333333;
+    line-height: 2.5;
+}
+.beauty-spa .box-image{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    max-width: unset;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.beauty-spa .box-image .image1, .beauty-spa .box-image .image2, .beauty-spa .box-image .image3{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.beauty-spa .box-image .image1{
+    background-image: url(../images/home/female-hand-with-white-dandelion-nail-design-scaled.jpg);
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    background-size: cover !important;
+}
+
+.beauty-spa .box-image .image2{
+    background-image: url(../images/home/womans-wellgroomed-legs-during-skin-treatment1-scaled.jpeg);
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    background-size: cover !important;
+}
+
+.beauty-spa .box-image .image3{
+    background-image: url(../images/home/beautiful-woman-hands-with-cream-scaled.jpg);
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    background-size: cover !important;
+}
+.beauty-spa .box-image h2{
+    text-transform: uppercase;
+    color: #f1f1f1;
+    font-weight: bold;
+    font-size: 1.6em;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+
 .services{
     position: relative;
     width: 100%;
@@ -124,7 +413,7 @@ main .contact .container{
     background-position: 20% 50%;
     background-size: cover !important;
 }
-.e-gift .box-inner .divider, .business .box-inner .divider{
+.e-gift .box-inner .divider, .business .box-inner .divider, .beauty-spa .box-inner .divider{
     max-width:100px;
     background-color:rgb(246, 241, 233);
 }
@@ -142,7 +431,7 @@ main .contact .container{
     font-size: 1.6em;
     line-height: 2;
 }
-.contact .btn-more, .e-gift .btn-more, .business .btn-more{
+.contact .btn-more, .e-gift .btn-more, .business .btn-more, .beauty-spa .btn-more, .about-us .btn-more{
     background-color: #fff !important;
     color: #666 !important;
     border-radius: 10px;
@@ -152,7 +441,7 @@ main .contact .container{
     font-weight: bolder;
     padding: 7px 20px;
 }
-.contact .btn-more:hover, .e-gift .btn-more:hover, .business .btn-more:hover{
+.contact .btn-more:hover, .e-gift .btn-more:hover, .business .btn-more:hover, .beauty-spa .btn-more:hover, .about-us .btn-more:hover{
     background-color: #dddddd !important;
 }
 
@@ -194,4 +483,15 @@ main .contact .container{
     background-repeat: no-repeat !important;
     background-position: 50% 50%;
     background-size: cover !important;
+}
+
+@-webkit-keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+}
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
 }

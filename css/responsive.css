@@ -47,6 +47,35 @@
     .slider-banner .banner .banner-detail .container .banner-detail-first .banner-text .btn-call{
         padding: 10px 15px 10px 15px;
     }
+    
+    .about-us .box-inner{
+        padding-left: 15px;
+        padding-right: 160px !important;
+    }
+    .about-us .box-image, .about-us .box-image .image-about-us{
+        height: 500px;
+        margin-top: 10px;
+    }
+    .about-us .box-image .image-about-us{
+        right: 0;
+    }
+    .about-us .about-us-inner{
+        height: 500px;
+        align-items: center;
+    }
+    .beauty-spa .beauty-spa-inner{
+        height: 580px;
+    }
+    .beauty-spa .beauty-spa-inner:before{
+        top: 32.5%;
+    }
+    .beauty-spa .box-image{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .beauty-spa .box-image, .beauty-spa .box-image .image1, .beauty-spa .box-image .image2, .beauty-spa .box-image .image3{
+        height: 280px;
+    }
     .business{
         padding-bottom: 500px;
     }
@@ -87,6 +116,79 @@
     }
     .slider-banner .banner .banner-detail .container .banner-detail-first .banner-text{
         text-align: center !important;
+    }
+    .slider-home, .slider-home .sliders .slider-1 .box-image, .slider-home .sliders .slider-1 .box-image .image{
+        height: 350px;
+    }
+    .slider-home, .slider-home .sliders .slider-2 .box-image, .slider-home .sliders .slider-2 .box-image .image{
+        height: 350px;
+    }
+    .slider-home, .slider-home .sliders .slider-3 .box-image, .slider-home .sliders .slider-3 .box-image .image{
+        height: 350px;
+    }
+    .slider-home, .slider-home .sliders .slider-4 .box-image, .slider-home, .slider-home .sliders .slider-5 .box-image{
+        height: 350px;
+    }
+    .slider-home .sliders .slider-4 .box-image .container, .slider-home .sliders .slider-5 .box-image .container{
+        height: 350px;
+    }
+    .slider-home .sliders .slider-4 .box-inner, .slider-home .sliders .slider-5 .box-inner{
+        height: auto;
+        justify-content: left;
+    }
+    .slider-home .sliders .slider-4 .box-image .box-inner h1{
+        font-size: 24px;
+    }
+    .slider-home .sliders .slider-5 .box-image .box-inner h1{
+        font-size: 16px;
+    }
+    .slider-home .sliders .slider-5 .box-image .box-inner p{
+        font-size: 24px;
+    }
+    .slider-home .sliders .slider-3 .box-inner h1, .slider-home .sliders .slider-3 .box-inner p{
+        text-align: center !important;
+        color: #FFFFFF !important;
+    }
+    .slider-home .sliders .slider-2 .box-image .image .box-inner h1{
+        font-size: 32px;
+    }
+    .slider-home, .slider-home .sliders .slider-3 .box-image, .slider-home .sliders .slider-3 .box-image .image{
+        padding-right: 0;
+    }
+    .slider-home .sliders .slider-1 .box-image .image .box-inner h1,.slider-home .sliders .slider-1 .box-image .image .box-inner h2{
+        font-size: 32px;
+    }
+    .slider-home .sliders .slider-3 .box-image .image .box-inner h1{
+        font-size: 36px;
+    }
+    .slider-home .sliders .slider-3 .box-image .image .box-inner p{
+        font-size: 30px;
+    }
+    .about-us .box-inner{
+        padding-right: 6px !important;
+    }
+    .about-us .box-inner{
+        padding-left: 0;
+    }
+    .about-us .box-inner h1{
+        font-size: 4.2em;
+    }
+    .beauty-spa .beauty-spa-inner{
+        height: auto;
+    }
+    .beauty-spa .beauty-spa-inner:before{
+        display: none;
+    }
+    .beauty-spa .box-image{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .beauty-spa .box-image .image1, .beauty-spa .box-image .image2, .beauty-spa .box-image .image3{
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+    .beauty-spa .beauty-spa-inner .box-inner p{
+        font-size: 250%;
     }
     .bg-about-us{
         height: auto;
@@ -145,6 +247,9 @@
 
 }
 @media (max-width: 1024px){
+    .about-us .box-inner{
+        padding-right: 130px
+    }
     .e-gift .box-inner{
         justify-content: center;
     }
